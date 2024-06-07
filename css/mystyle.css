@@ -1,0 +1,172 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    width: 100vm;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F4EBD9;
+}
+
+main{
+    margin: 0 auto;
+}
+
+.logo{
+    padding-left: 5em;
+    padding-top: 3em;
+}
+
+.nav-links{
+    list-style: none;
+    align-items: center;
+    font-size: large;
+    padding-top: 4em;
+    padding-right: 5em;
+}
+
+nav{
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    font-weight: bold;
+}
+
+nav li{
+    display: inline;
+    padding-left:15px;
+    padding-right:15px;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: #ACACDE;
+    text-decoration-thickness: 6px;
+}
+
+.active{
+    text-decoration: underline;
+    text-decoration-color: #ACACDE;
+    text-decoration-thickness: 6px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    font-size: 60px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.highlight{
+    background-color: #F27059;
+}
+
+.text{
+    padding-top: 3rem;
+    text-align: left;
+}
+
+.mateo{
+    padding-top: 4em;
+}
+
+.media{
+    display: flex;
+    gap: 1rem;
+}
+
+.container-two{
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex img{
+    padding-top:30px;
+    padding-left: 10px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+p{
+    font-size: 21px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.box{
+    padding-left: 12rem;
+}
+
+.container-three{
+    background-color: #F27059;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.container-three .box{
+    color: white;
+    padding-top: 3em;
+}
+
+.container-three .box p{
+    font-style: normal;
+    padding: 0px;
+}
+
+.container-three .flex{
+    justify-content: center;
+}
+
+.x{
+    text-align: center;
+    padding-top: 2em;
+}
+
+.container-four{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 4em;
+    padding-bottom: 8em;
+}
+
+.container-five{
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+
+footer{
+    background-color: #2A2D34;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+footer h1{
+    color: #F4EBD9;
+    padding-left: 4em;
+    font-style: italic;
+}
